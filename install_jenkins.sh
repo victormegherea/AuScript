@@ -59,6 +59,7 @@ function plugins_install {
 }
 
 function main {
+  apt-get update -y 
   install_jenkins
   config_jenkins
   plugins_install
